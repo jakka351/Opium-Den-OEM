@@ -7,4 +7,11 @@ It's not that hard to build some tooling for these vehicles, here's some raw dat
 *Jakka*
 
 ## Challenge - can the open source community build an automotive grade diagnostic tool?  
-Discussions are open - the data is dropped, what can the community build? Fork the repo if you want to help. 
+Discussions are open - the data is dropped, what can the community build? Fork the repo if you want to help. The data is actually irrelevant to the viability of achieving this goal, the real core is very simple - the on the wire protocols that automotive systems use, they are widely documented via SAE and ISO standards - but one size does not fit all - you have need a system that is protocol-era-aware and protocol-dialect-proficient. Its a universal language but there are hundreds of dialects and language nuances to grasp and control.   
+
+## Bytes on the wires  
+At the core the system is architecture is simple - 4 protocols layered one over the other and you have everything you need.    
+  
+    SAE J2534(PassThru) --> ISO 14229(UDS) --> ISO 15765(ISO-TP) --> ISO 11898(CAN)  
+  
+You build everything around these four and you are on the money. Understanding all of them is crucial to building this. 
