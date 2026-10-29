@@ -12,6 +12,6 @@ Discussions are open - the data is dropped, what can the community build? Fork t
 ## Bytes on the wires  
 At the core the system is architecture is simple - 4 protocols layered one over the other and you have everything you need.    
   
-    SAE J2534(PassThru) --> ISO 14229(UDS) --> ISO 15765(ISO-TP) --> ISO 11898(CAN)  
+    [PC] -> SAE J2534(PassThru) --> ISO 14229(UDS) --> ISO 15765(ISO-TP) --> ISO 11898(CAN) -> [ECU]   
   
 You build everything around these four and you are on the money. Understanding all of them is crucial to building this. 
