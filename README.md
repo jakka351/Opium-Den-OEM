@@ -4,5 +4,7 @@
 Chinese Vehicle Open Tooling - **Data Dump and Community Tooling Bootstrapper**  
 
 It's not that hard to build some tooling for these vehicles, here's some raw data to help. I will post some foundations for something in the coming weeks.  
-  
 *Jakka*
+
+## Challenge - can the open source community build an automotive grade diagnostic tool?  
+Discussions are open - the data is dropped, what can the community build? Fork the repo if you want to help. 
